@@ -1,6 +1,6 @@
 Code of Conduct
-Last Updated: 02/02/2025
-Project Name: Running & Cycling Buddies App
+Last Updated: 03/02/2025
+Project Name: Recipe Swap App
 
 1. Purpose:
 Our goal is to create a welcoming, collaborative, and respectful environment for all contributors. This Code of Conduct applies to all interactions within the project, including GitHub discussions, pull requests, issue tracking, and any external communications.
@@ -24,7 +24,7 @@ Our goal is to create a welcoming, collaborative, and respectful environment for
 -Ensure that contributions adhere to project licensing terms.
 
 5. Reporting Issues:
-If you experience or witness behavior that violates this Code of Conduct, please report it(cocadmin@yahoo.com)... All reports will be handled confidentially.
+If you experience or witness behavior that violates this Code of Conduct, please report it(coc-admin@yahoo.com)... All reports will be handled confidentially.
 
 6. Enforcement:
 Violations of this Code of Conduct may result in temporary or permanent exclusion from the project, depending on the severity of the incident.
