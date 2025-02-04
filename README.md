@@ -84,7 +84,8 @@ npm install  # or yarn install
 ```sh
 npm start  # or yarn start
 ```
-This will start the development server. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+## This will start the development server. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+## To visit phphmyadmin: Open [http://localhost:8081](http://localhost:8081) in your browser.
 
 ## Contributing
 We welcome contributions! Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
