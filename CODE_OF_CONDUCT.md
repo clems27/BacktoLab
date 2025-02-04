@@ -24,7 +24,7 @@ Our goal is to create a welcoming, collaborative, and respectful environment for
 -Ensure that contributions adhere to project licensing terms.
 
 5. Reporting Issues:
-If you experience or witness behavior that violates this Code of Conduct, please report it(coc-admin@yahoo.com)... All reports will be handled confidentially.
+If you experience or witness behavior that violates this Code of Conduct, please report it(backtolab_coc@yahoo.com)... All reports will be handled confidentially.
 
 6. Enforcement:
 Violations of this Code of Conduct may result in temporary or permanent exclusion from the project, depending on the severity of the incident.
