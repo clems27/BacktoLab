@@ -1,37 +1,114 @@
-# MySQL, PHPMyAdmin and Node.js (ready for Express development)
+#BackToLab
 
-This will install Mysql and phpmyadmin (including all dependencies to run Phpmyadmin) AND node.js
+# MC Recipe Swap Application
 
-This receipe is for development - Node.js is run in using supervisor: changes to any file in the app will trigger a rebuild automatically.
+## Project Overview
 
-For security, this receipe uses a .env file for credentials.  A sample is provided in the env-sample file. If using these files for a fresh project, copy the env-sample file to a file called .env.  Do NOT commit the changed .env file into your new project for security reasons (in the node package its included in .gitignore so you can't anyway)
+The Recipe Swap App is a social platform designed to connect food enthusiasts worldwide by allowing users to share, discover, and exchange recipes. The app fosters a community-driven experience where users can upload their favorite recipes, explore diverse cuisines, and interact with other home cooks and professional chefs.
 
-In node.js, we use the MySQl2 packages (to avoid problems with MySQL8) and the dotenv package to read the environment variables.
+## Key Features
 
-Local files are mounted into the container using the 'volumes' directive in the docker-compose.yml for ease of development.
+### User Registration & Profiles
+- Sign up via email, Google, or social media.
+- Create a customizable profile with bio, dietary preferences, and saved recipes.
 
-### Super-quickstart your new project:
+### Recipe Upload & Management
+- Add new recipes with photos, ingredients, and step-by-step instructions.
+- Categorize recipes by cuisine, dietary restrictions, and meal type.
+- Edit and delete personal recipes.
 
-* Make sure that you don't have any other containers running usind docker ps
-* run ```docker-compose up --build```
+### Recipe Discovery & Search
+- Search for recipes by ingredients, cuisine, or dietary needs.
+- Browse trending and most-liked recipes.
+- Use AI-powered recommendations based on user preferences.
 
-#### Visit phphmyadmin at:
+### Recipe Swap Feature
+- Users can request swaps with others to exchange exclusive or family recipes.
+- Private recipe sharing with select users.
 
-http://localhost:8081/
+### Community & Social Features
+- Follow other users and see their latest recipe uploads.
+- Like, comment, and share recipes.
+- Join groups or forums based on dietary interests or cuisine types.
 
-#### Visit your express app at:
+### Shopping List & Meal Planner
+- Generate shopping lists based on selected recipes.
+- Plan weekly meals and track nutritional information.
 
-http://localhost:3000
+### Gamification & Rewards
+- Earn badges for engagement (e.g., most shared, top chef of the week).
+- Unlock premium recipes through participation.
 
-For reference, see the video at: https://roehampton.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6f290a6b-ba94-4729-9632-adcf00ac336e
+### Multi-Device Support & Synchronization
+- Accessible on mobile (iOS & Android) and web.
+- Sync recipes, favorites, and meal plans across devices.
 
-NB if you are running this on your own computer rather than the azure labs that has been set up for you, you will need to install the following:
+### Privacy & Security
+- Users control visibility of shared recipes.
+- Secure data storage and GDPR-compliant privacy settings.
 
-* node.js  (windows: https://nodejs.org/en/download/)
-* docker desktop (for windows, this will also prompt you to install linux subsystem for windows https://docs.docker.com/desktop/windows/install/ )
+## Target Audience
+- Home cooks and food enthusiasts
+- Professional chefs looking to share expertise
+- Individuals with dietary restrictions seeking meal inspiration
+- Culinary students and recipe developers
 
-### Whats provided in these scaffolding files?
+## Technology Stack
+- **Frontend:** React.js
+- **Backend:** Node.js with Express.js
+- **Database:** MySQL
 
+## Development Roadmap
+- **Agile** development methodology
+
+## Conclusion
+The Recipe Swap Application aims to revolutionize how people discover and share recipes by creating an engaging, interactive, and user-friendly platform. With an intuitive design and strong community features, the app has the potential to become a go-to destination for food lovers.
+
+## Getting Started
+
+## Prerequisites
+To run the project locally, ensure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [docker desktop](for windows, this will also prompt you to install linux subsystem for windows https://docs.docker.com/desktop/windows/install/ )
+
+### Installation
+Clone the repository and install dependencies:
+```sh
+git clone https://github.com/your-username/recipe-swap.git
+cd recipe-swap
+npm install  # or yarn install
+```
+
+### Running the Application
+```sh
+npm start  # or yarn start
+```
+This will start the development server. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+
+## Contributing
+We welcome contributions! Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
+
+To contribute:
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m 'Add feature'`)
+4. Push to the branch (`git push origin feature-name`)
+5. Open a Pull Request
+
+## This will start the development server. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+## Visit phphmyadmin. Open [http://localhost:8081/] in your browser.
+
+## Code of Conduct
+By participating in this project, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## License
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+## Contact
+For any questions or suggestions, feel free to open an issue or contact us at [backtolab@yahoo.com](mailto:backtolab@yahoo.com).
+
+## Whats provided in these scaffolding files?
 
   * A docker setup which will provide you with node.js, mysql and phpmyadmin, including the configuration needed so that both node.js AND phpmyadmin can 'see' and connect to your mysql database.  If you don't use docker you'll have to set up and connect each of these components separately.
   * A basic starting file structure for a node.js app.
